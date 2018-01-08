@@ -15,9 +15,9 @@ import org.apache.hadoop.util.ToolRunner;
 
 public class FrequenceDriver extends Configured implements Tool {
 	//chemin de l'output 
-    private static final String output = "output/etape1";
+    private static final String output = "TP2_Mapreduce/PLP/exercice_5_1_TfIdf/output/etape1";
     //chemin du texte en entrée
-    private static final String input = "/home/cloudera/workspace/TfIdf/input/";
+    private static final String input = "TP2_Mapreduce/PLP/exercice_5_1_TfIdf/input/";
  
     public int run(String[] args) throws Exception {
  
