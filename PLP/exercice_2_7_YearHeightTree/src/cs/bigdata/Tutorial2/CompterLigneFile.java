@@ -10,8 +10,8 @@ import org.apache.hadoop.fs.*;
 public class CompterLigneFile {
 
 	public static void main(String[] args) throws IOException {
-		PrintWriter writer = new PrintWriter("/home/cloudera/ex27/YearHeightTreeDisplay.txt", "UTF-8");
-		String localSrc = "/home/cloudera/ex27/arbres.csv" ;
+		PrintWriter writer = new PrintWriter("TP2_Mapreduce/PLP/exercice_2_7_YearHeightTree/YearHeightTreeDisplay.txt", "UTF-8");
+		String localSrc = "TP2_Mapreduce/PLP/exercice_2_7_YearHeightTree/arbres.csv" ;
 	
 		
 		int lineCount=0;
