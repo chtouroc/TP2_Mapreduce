@@ -11,7 +11,7 @@ public class question8 {
 
 	public static void main(String[] args) throws IOException {
 		
-		String localSrc = "/home/cloudera/Downloads/isdhistory.txt";
+		String localSrc = "TP2_Mapreduce/PLP/exercice 2_8/isdhistory.txt";
 		//Open the file
 		Configuration conf = new Configuration();
 		FileSystem fs = FileSystem.get(conf);
