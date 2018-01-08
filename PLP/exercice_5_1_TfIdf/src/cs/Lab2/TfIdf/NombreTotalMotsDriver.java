@@ -14,9 +14,9 @@ import org.apache.hadoop.util.ToolRunner;
 
 
 public class NombreTotalMotsDriver extends Configured implements Tool {
-    private static final String output = "/home/cloudera/workspace/TfIdf/output/etape2";
+    private static final String output = "TP2_Mapreduce/PLP/exercice_5_1_TfIdf/output/etape2";
  
-    private static final String input = "/home/cloudera/workspace/TfIdf/output/etape1";
+    private static final String input = "TP2_Mapreduce/PLP/exercice_5_1_TfIdf/output/etape1";
  
     public int run(String[] args) throws Exception {
  
