@@ -30,8 +30,8 @@ public class TreeMaxHeightPerTypeDriver {
 		conf.setOutputFormat(TextOutputFormat.class);
 		
 		// input and output directories
-		FileInputFormat.setInputPaths(conf, new Path("/home/cloudera/ex53/arbres.csv"));
-		FileOutputFormat.setOutputPath(conf, new Path("/home/cloudera/ex53/output_Max_Height"));
+		FileInputFormat.setInputPaths(conf, new Path("TP2_Mapreduce/PLP/exercice_5_3_Arbres/output/arbres.csv"));
+		FileOutputFormat.setOutputPath(conf, new Path("TP2_Mapreduce/PLP/exercice_5_3_Arbres/output/output_Max_Height"));
 	
 		client.setConf(conf);
 		try {
