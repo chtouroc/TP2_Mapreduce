@@ -19,8 +19,8 @@ public class PageRankDriver {
 	  
     public static Double damping_factor = 0.85;
     public static int nbr_iterations = 2;
-    public static String input = "/home/cloudera/workspace/pagerank/soc-Epinions1.txt";
-    public static String output = "/home/cloudera/workspace/pagerank/result";
+    public static String input = "TP2_Mapreduce/PLP/exercice_5_2_Pagerank/soc-Epinions1.txt";
+    public static String output = "TP2_Mapreduce/PLP/exercice_5_2_Pagerank/result";
     
     public static Set<String> noeuds = new HashSet<String>();
     public static String séparateur = "|";
